@@ -1,0 +1,24 @@
+:root {
+  --bg: #ffffff;
+  --text: #171717;
+  --border: #e5e5e5;
+  --accent: #aa3bff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  width: 100%;
+  max-width: 1126px;
+  min-height: 100svh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
